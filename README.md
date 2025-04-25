@@ -36,11 +36,13 @@ A lightweight web-based system that enables university lecturers to manage atten
 1. Open **XAMPP** or **WAMP** and start **Apache** and **MySQL**.
 2. Go to `http://localhost/phpmyadmin/` in your browser.
 3. Click **Import** from the top menu.
-4. Select the file:  
-   `databases/attendance_db.sql`
+4. Select the files:  
+   `databases/users (1).sql`
+   `databases/students.sql`
+   `databases/feedback.sql`
 5. Click **Go** to import.
 
-You should now see a new database (e.g., `attendance_db`) with the necessary tables.
+You should now see a new database (e.g., `attendance_db`) with the necessary tables(`users (1)`, `students`, `feedback`).
 
 ---
 
